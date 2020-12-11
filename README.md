@@ -2,10 +2,6 @@
 
 Typescript component to show internal notifications for react native application
 
-## How it works
-
-![How react-native-internal-notification works](https://im4.ezgif.com/tmp/ezgif-4-306ef3593534.gif =250px)
-
 ## Install
 
 ```bash
@@ -76,3 +72,7 @@ export default function DevScreen() {
     );
 }
 ```
+
+## Small Demo and How it works
+
+![How react-native-internal-notification works](https://im4.ezgif.com/tmp/ezgif-4-306ef3593534.gif)
