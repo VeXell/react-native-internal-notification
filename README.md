@@ -1,4 +1,4 @@
-# React Native InApp Notifications (internal notifications)
+# React Native InApp Notifications
 
 Typescript component to show internal notifications for react native application
 
