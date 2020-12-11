@@ -106,6 +106,14 @@ function Notification({ children }: INotiticationProps) {
         [animatedValue, notification, handleHideNotification]
     );
 
+    const handlePressNotification = useCallback(() => {
+        if (notification && notification.onPress) {
+            notification.onPress();
+            setNotification(undefined);
+            clearTimeout(hideTimer.current);
+        }
+    }, [notification]);
+
     useEffect(() => {
         return () => {
             clearTimeout(hideTimer.current);
@@ -139,7 +147,7 @@ function Notification({ children }: INotiticationProps) {
                     }}
                 >
                     <TouchableOpacity
-                        onPress={notification.onPress}
+                        onPress={handlePressNotification}
                         style={[styles.content, { backgroundColor: notification.color }]}
                     >
                         {notification.icon ? (
