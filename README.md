@@ -20,7 +20,7 @@ Step 1.
 Wrap your app or root component with Notification provider
 
 ```javascript
-import { NotificationProvider } from 'react-native-inapp-notification';
+import { NotificationProvider } from 'react-native-internal-notification';
 import App from './App';
 
 const Application = function () {
@@ -41,7 +41,7 @@ import React, { useCallback } from 'react';
 import { TouchableOpacity, Text } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
 
-import { useNotification } from 'src/core/Notification';
+import { useNotification } from 'react-native-internal-notification';
 
 export default function DevScreen() {
     const notification = useNotification();
