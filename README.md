@@ -1,6 +1,12 @@
-# React Native InApp Notifications
+# React Native InApp Notifications [![npm version](https://badge.fury.io/js/react-native-internal-notification.svg)](https://badge.fury.io/js/react-native-internal-notification)
 
 Typescript component to show internal notifications for react native application
+
+## Install
+
+```bash
+yarn add react-native-internal-notification
+```
 
 ## Props
 
