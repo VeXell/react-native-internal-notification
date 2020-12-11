@@ -10,5 +10,18 @@
         "react": ">=16.13.0",
         "react-native": ">=0.60.0",
         "typescript": ">=3.9.2"
-    }
+    },
+    "keywords": [
+        "inapp",
+        "react",
+        "react-native",
+        "notification",
+        "notifications",
+        "animation",
+        "in-app-notification",
+        "inapp-notifications",
+        "ios",
+        "android",
+        "typescript"
+    ]
 }
