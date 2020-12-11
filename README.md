@@ -1,4 +1,4 @@
-# react-native-inapp-notification
+# React Native InApp Notifications (internal notifications)
 
 Typescript component to show internal notifications for react native application
 
@@ -14,8 +14,6 @@ Typescript component to show internal notifications for react native application
 | color       | Background color for notification                                                    |
 
 ## Usage
-
-Work with `react-native-inapp-notification` is simple;
 
 Step 1.
 

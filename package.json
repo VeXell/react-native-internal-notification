@@ -1,9 +1,9 @@
 {
-    "name": "react-native-inapp-notification",
+    "name": "react-native-internal-notification",
     "version": "1.0.0",
-    "description": "Typescript component to show internal notifications for react native application",
+    "description": "Typescript component to show internal (in-app) notifications for react native application",
     "main": "src/index.js",
-    "repository": "https://github.com/VeXell/react-native-inapp-notification",
+    "repository": "https://github.com/VeXell/react-native-internal-notification",
     "author": "Viacheslav Volkov <vexell@gmail.com>",
     "license": "MIT",
     "peerDependencies": {
