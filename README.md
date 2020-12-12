@@ -75,4 +75,4 @@ export default function DevScreen() {
 
 ## Small Demo and How it works
 
-![How react-native-internal-notification works](https://im4.ezgif.com/tmp/ezgif-4-306ef3593534.gif)
+![How react-native-internal-notification works](https://i.imgur.com/ZkfIVFX.gif)
