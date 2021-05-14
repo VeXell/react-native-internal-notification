@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "jsx": "react-native",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist",
+        "declaration": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node"
+    },
+    "include": ["src"]
+}
