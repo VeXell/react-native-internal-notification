@@ -1,5 +1,13 @@
 import React, { useCallback, useContext, useState, useMemo, useRef, useEffect } from 'react';
-import { View, StyleSheet, Animated, ViewStyle, TouchableOpacity, Text } from 'react-native';
+import {
+    View,
+    StyleSheet,
+    Animated,
+    ViewStyle,
+    TouchableOpacity,
+    Text,
+    Platform,
+} from 'react-native';
 
 import { INotificationContext, INotification, INotiticationProps } from './types';
 
@@ -20,6 +28,7 @@ const styles = StyleSheet.create({
         right: 0,
         height: 0,
         zIndex: 1000,
+        elevation: 1,
     },
     containerShown: {
         height: 65,
@@ -37,6 +46,7 @@ const styles = StyleSheet.create({
         shadowColor: 'black',
         shadowOpacity: 0.15,
         flexDirection: 'row',
+        elevation: 5,
     },
     contentIcon: {
         width: 45,
@@ -134,10 +144,13 @@ function Notification({ children }: INotiticationProps) {
                                     }),
                                 },
                             ],
-                            opacity: animatedValue.interpolate({
-                                inputRange: [0, 1],
-                                outputRange: [0, 1],
-                            }),
+                            opacity:
+                                Platform.OS !== 'android'
+                                    ? animatedValue.interpolate({
+                                          inputRange: [0, 1],
+                                          outputRange: [0, 1],
+                                      })
+                                    : 1,
                             position: 'absolute',
                             top: 0,
                             bottom: 0,
