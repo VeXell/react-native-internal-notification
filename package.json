@@ -1,6 +1,6 @@
 {
     "name": "react-native-internal-notification",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Typescript component to show internal (in-app) notifications for react native application",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
